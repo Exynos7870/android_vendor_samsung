@@ -126,8 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
-    vendor/samsung/j7y17lte/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
-    vendor/samsung/j7y17lte/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libOpenCv.so:system/vendor/lib/libOpenCv.so \
