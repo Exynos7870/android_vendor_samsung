@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/j7y17lte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/j7y17lte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
-    vendor/samsung/j7y17lte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/samsung/j7y17lte/proprietary/etc/ca.pem:system/etc/ca.pem \
     vendor/samsung/j7y17lte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/j7y17lte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
