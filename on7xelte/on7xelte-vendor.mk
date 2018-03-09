@@ -16,38 +16,15 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/07060000000000000000000000000000.tlbin:system/app/mcRegistry/07060000000000000000000000000000.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/08130000000000000000000000000000.tlbin:system/app/mcRegistry/08130000000000000000000000000000.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:system/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:system/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000012.tlbin:system/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000013.tlbin:system/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000016.tlbin:system/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000019.tlbin:system/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff00000000000000000000001f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000001f.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff00000000000000000000002e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000002e.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000041.tlbin:system/app/mcRegistry/ffffffff000000000000000000000041.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000045.tlbin:system/app/mcRegistry/ffffffff000000000000000000000045.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
     vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/on7xelte/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/on7xelte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/on7xelte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
-    vendor/samsung/on7xelte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/samsung/on7xelte/proprietary/etc/ca.pem:system/etc/ca.pem \
     vendor/samsung/on7xelte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/on7xelte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
+    vendor/samsung/on7xelte/proprietary/etc/somxreg.conf:system/etc/somxreg.conf \
     vendor/samsung/on7xelte/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/on7xelte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/on7xelte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
@@ -55,13 +32,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
     vendor/samsung/on7xelte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/on7xelte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/on7xelte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+    vendor/samsung/on7xelte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/camera.vendor.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
+    vendor/samsung/on7xelte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+    vendor/samsung/on7xelte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/on7xelte/proprietary/lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
     vendor/samsung/on7xelte/proprietary/lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
     vendor/samsung/on7xelte/proprietary/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
+    vendor/samsung/on7xelte/proprietary/lib/libarac.so:system/lib/libarac.so \
     vendor/samsung/on7xelte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/on7xelte/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
     vendor/samsung/on7xelte/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
@@ -79,6 +61,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/on7xelte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/on7xelte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsavsac.so:system/lib/libsavsac.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsavsff.so:system/lib/libsavsff.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsavsmeta.so:system/lib/libsavsmeta.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
     vendor/samsung/on7xelte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/on7xelte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/on7xelte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
@@ -86,16 +73,52 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/on7xelte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/on7xelte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsnaace.so:system/lib/libsnaace.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsnamrnb.so:system/lib/libsnamrnb.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsnamrwb.so:system/lib/libsnamrwb.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxadpcmd.so:system/lib/libsomxadpcmd.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxevrcd.so:system/lib/libsomxevrcd.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxevrce.so:system/lib/libsomxevrce.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxhevcdsw.so:system/lib/libsomxhevcdsw.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxmp4vdsw.so:system/lib/libsomxmp4vdsw.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxnaace.so:system/lib/libsomxnaace.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxqcelpd.so:system/lib/libsomxqcelpd.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxqcelpe.so:system/lib/libsomxqcelpe.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxvc1dsw.so:system/lib/libsomxvc1dsw.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
     vendor/samsung/on7xelte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsxqk.so:system/lib/libsxqk.so \
     vendor/samsung/on7xelte/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/on7xelte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/on7xelte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
+    vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
+    vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
+    vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+    vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+    vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/bcm43438A1_V0062.0267.hcd:system/vendor/firmware/bcm43438A1_V0062.0267.hcd \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/bcm4343A0_V0071.0262.hcd:system/vendor/firmware/bcm4343A0_V0071.0262.hcd \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/setfile_4h5yc.bin:system/vendor/firmware/setfile_4h5yc.bin \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
