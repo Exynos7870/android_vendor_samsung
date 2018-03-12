@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/j7velte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/j7velte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
-    vendor/samsung/j7velte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/samsung/j7velte/proprietary/etc/ca.pem:system/etc/ca.pem \
     vendor/samsung/j7velte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/j7velte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
@@ -56,7 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/j7velte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/samsung/j7velte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/samsung/j7velte/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so \
+    vendor/samsung/j7velte/proprietary/lib/hw/camera.vendor.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
     vendor/samsung/j7velte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/j7velte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/j7velte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
@@ -136,14 +135,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/vendor/firmware/setfile_3l2.bin:system/vendor/firmware/setfile_3l2.bin \
     vendor/samsung/j7velte/proprietary/vendor/firmware/setfile_5e3.bin:system/vendor/firmware/setfile_5e3.bin \
     vendor/samsung/j7velte/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
+    vendor/samsung/j7velte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
-    vendor/samsung/j7velte/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
-    vendor/samsung/j7velte/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
-    vendor/samsung/j7velte/proprietary/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
-    vendor/samsung/j7velte/proprietary/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
+    vendor/samsung/j7velte/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
+    vendor/samsung/j7velte/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
     vendor/samsung/j7velte/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
+    vendor/samsung/j7velte/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/j7velte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so
