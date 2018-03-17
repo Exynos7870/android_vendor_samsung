@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/etc/ca.pem:system/etc/ca.pem \
     vendor/samsung/j7velte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/j7velte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
-    vendor/samsung/j7velte/proprietary/etc/somxreg.conf:system/etc/somxreg.conf \
     vendor/samsung/j7velte/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/j7velte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/j7velte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
@@ -59,12 +58,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/j7velte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/j7velte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
-    vendor/samsung/j7velte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
-    vendor/samsung/j7velte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/j7velte/proprietary/lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
     vendor/samsung/j7velte/proprietary/lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
     vendor/samsung/j7velte/proprietary/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
-    vendor/samsung/j7velte/proprietary/lib/libarac.so:system/lib/libarac.so \
     vendor/samsung/j7velte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/j7velte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     vendor/samsung/j7velte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
@@ -78,11 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
     vendor/samsung/j7velte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/j7velte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/samsung/j7velte/proprietary/lib/libsavsac.so:system/lib/libsavsac.so \
-    vendor/samsung/j7velte/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
-    vendor/samsung/j7velte/proprietary/lib/libsavsff.so:system/lib/libsavsff.so \
-    vendor/samsung/j7velte/proprietary/lib/libsavsmeta.so:system/lib/libsavsmeta.so \
-    vendor/samsung/j7velte/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
     vendor/samsung/j7velte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/j7velte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7velte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
@@ -90,33 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/j7velte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/j7velte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-    vendor/samsung/j7velte/proprietary/lib/libsnaace.so:system/lib/libsnaace.so \
-    vendor/samsung/j7velte/proprietary/lib/libsnamrnb.so:system/lib/libsnamrnb.so \
-    vendor/samsung/j7velte/proprietary/lib/libsnamrwb.so:system/lib/libsnamrwb.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxadpcmd.so:system/lib/libsomxadpcmd.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxevrcd.so:system/lib/libsomxevrcd.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxevrce.so:system/lib/libsomxevrce.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxhevcdsw.so:system/lib/libsomxhevcdsw.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxmp4vdsw.so:system/lib/libsomxmp4vdsw.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxnaace.so:system/lib/libsomxnaace.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxqcelpd.so:system/lib/libsomxqcelpd.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxqcelpe.so:system/lib/libsomxqcelpe.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxvc1dsw.so:system/lib/libsomxvc1dsw.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
-    vendor/samsung/j7velte/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
     vendor/samsung/j7velte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
-    vendor/samsung/j7velte/proprietary/lib/libsxqk.so:system/lib/libsxqk.so \
     vendor/samsung/j7velte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/j7velte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/j7velte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
