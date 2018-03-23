@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
     vendor/samsung/j7velte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/j7velte/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/j7velte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/j7velte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
     vendor/samsung/j7velte/proprietary/etc/ca.pem:system/etc/ca.pem \
     vendor/samsung/j7velte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
@@ -103,8 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
-    vendor/samsung/j7velte/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
-    vendor/samsung/j7velte/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
     vendor/samsung/j7velte/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
