@@ -57,6 +57,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/j5y17lte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/j5y17lte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/j5y17lte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+    vendor/samsung/j5y17lte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/j5y17lte/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
     vendor/samsung/j5y17lte/proprietary/lib/hw/camera.vendor.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
     vendor/samsung/j5y17lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
