@@ -60,6 +60,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/samsung/j5y17lte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/j5y17lte/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
     vendor/samsung/j5y17lte/proprietary/lib/hw/camera.vendor.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
     vendor/samsung/j5y17lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/j5y17lte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
@@ -109,7 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/j5y17lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/j5y17lte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
-	vendor/samsung/j5y17lte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
+    vendor/samsung/j5y17lte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/j5y17lte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
     vendor/samsung/j5y17lte/proprietary/lib/libstr_capture_core.so:system/lib/libstr_capture_core.so \
     vendor/samsung/j5y17lte/proprietary/lib/libstr_capture_interface.so:system/lib/libstr_capture_interface.so \
@@ -139,6 +141,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/vendor/lib/libsomp.so:system/vendor/lib/libsomp.so \
     vendor/samsung/j5y17lte/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
     vendor/samsung/j5y17lte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/samsung/j5y17lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
-    vendor/samsung/j5y17lte/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \	
-    vendor/samsung/j5y17lte/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \	
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so	
