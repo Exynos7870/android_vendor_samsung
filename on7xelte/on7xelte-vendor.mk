@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/on7xelte/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
     vendor/samsung/on7xelte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
-    vendor/samsung/on7xelte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/on7xelte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/on7xelte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/on7xelte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
@@ -107,5 +106,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/on7xelte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/samsung/on7xelte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so
