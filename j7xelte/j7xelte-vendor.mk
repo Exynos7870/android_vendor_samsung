@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/j7xelte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/j7xelte/proprietary/lib/hw/camera.vendor.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
+	vendor/samsung/j7xelte/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
