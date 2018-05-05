@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/lib/libcodecdump.so:system/lib/libcodecdump.so \
     vendor/samsung/j5y17lte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     vendor/samsung/j5y17lte/proprietary/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
+    vendor/samsung/j5y17lte/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
     vendor/samsung/j5y17lte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/j5y17lte/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
     vendor/samsung/j5y17lte/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
@@ -141,4 +142,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/vendor/lib/libsomp.so:system/vendor/lib/libsomp.so \
     vendor/samsung/j5y17lte/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
     vendor/samsung/j5y17lte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/samsung/j5y17lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so	
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
