@@ -81,6 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/lib/lib_SoundBooster_ver800.so:system/lib/lib_SoundBooster_ver800.so \
     vendor/samsung/j5y17lte/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
     vendor/samsung/j5y17lte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
+    vendor/samsung/j5y17lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j5y17lte/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/samsung/j5y17lte/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
     vendor/samsung/j5y17lte/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
