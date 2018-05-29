@@ -56,6 +56,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/on7xelte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/samsung/on7xelte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/samsung/on7xelte/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+    vendor/samsung/on7xelte/proprietary/lib/hw/audio.playback_record.default.so:system/lib/hw/audio.playback_record.default.so \
+    vendor/samsung/on7xelte/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    vendor/samsung/on7xelte/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
+    vendor/samsung/on7xelte/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/camera.vendor.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
@@ -63,9 +68,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
     vendor/samsung/on7xelte/proprietary/lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
     vendor/samsung/on7xelte/proprietary/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
+    vendor/samsung/on7xelte/proprietary/lib/libSamsungAPVoiceEngine.so:system/lib/libSamsungAPVoiceEngine.so \
+    vendor/samsung/on7xelte/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
+    vendor/samsung/on7xelte/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
+    vendor/samsung/on7xelte/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
+    vendor/samsung/on7xelte/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
+    vendor/samsung/on7xelte/proprietary/lib/lib_SamsungRec_V05001.so:system/lib/lib_SamsungRec_V05001.so \
+    vendor/samsung/on7xelte/proprietary/lib/lib_SoundAlive_SRC384_ver300.so:system/lib/lib_SoundAlive_SRC384_ver300.so \
+    vendor/samsung/on7xelte/proprietary/lib/lib_SoundBooster_ver800.so:system/lib/lib_SoundBooster_ver800.so \
+    vendor/samsung/on7xelte/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
     vendor/samsung/on7xelte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
+    vendor/samsung/on7xelte/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/samsung/on7xelte/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
     vendor/samsung/on7xelte/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
+    vendor/samsung/on7xelte/proprietary/lib/libcodecdump.so:system/lib/libcodecdump.so \
     vendor/samsung/on7xelte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     vendor/samsung/on7xelte/proprietary/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/on7xelte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
@@ -76,11 +92,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/on7xelte/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/on7xelte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+    vendor/samsung/on7xelte/proprietary/lib/libpreprocessing_nxp.so:system/lib/libpreprocessing_nxp.so \
     vendor/samsung/on7xelte/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
     vendor/samsung/on7xelte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/on7xelte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsamsungDiamondVoice.so:system/lib/libsamsungDiamondVoice.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
     vendor/samsung/on7xelte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/on7xelte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     vendor/samsung/on7xelte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/on7xelte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/on7xelte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
@@ -88,8 +110,156 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/on7xelte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
     vendor/samsung/on7xelte/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
+    vendor/samsung/on7xelte/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+    vendor/samsung/on7xelte/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/on7xelte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/on7xelte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/AzControlParams_SPEAKER.txt:system/vendor/etc/nxp/AzControlParams_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:system/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:system/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/LVAZFS_Configuration.txt:system/vendor/etc/nxp/LVAZFS_Configuration.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/LVVEFS_Rx_Configuration.txt:system/vendor/etc/nxp/LVVEFS_Rx_Configuration.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/LVVEFS_Tx_Configuration.txt:system/vendor/etc/nxp/LVVEFS_Tx_Configuration.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:system/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_EARPIECE.txt:system/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_SLD.txt:system/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_SPEAKER.txt:system/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:system/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_SLD.txt:system/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_EARPIECE.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_SLD.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_SPEAKER.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_SLD.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:system/vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_EARPIECE.txt:system/vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_SLD.txt:system/vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_SPEAKER.txt:system/vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:system/vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_SLD.txt:system/vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:system/vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_EARPIECE.txt:system/vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_SLD.txt:system/vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_SPEAKER.txt:system/vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:system/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_SLD.txt:system/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:system/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_EARPIECE.txt:system/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_SLD.txt:system/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_SPEAKER.txt:system/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:system/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_SLD.txt:system/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:system/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_EARPIECE.txt:system/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_SLD.txt:system/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_SPEAKER.txt:system/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:system/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_SLD.txt:system/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_EARPIECE.txt:system/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_SLD.txt:system/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_SPEAKER.txt:system/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_SLD.txt:system/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_EARPIECE.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_SLD.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_SPEAKER.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_SLD.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_SLD.txt:system/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_SLD.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_SLD.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/bcm43438A1_V0062.0267.hcd:system/vendor/firmware/bcm43438A1_V0062.0267.hcd \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/bcm4343A0_V0071.0262.hcd:system/vendor/firmware/bcm4343A0_V0071.0262.hcd \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
@@ -99,6 +269,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
     vendor/samsung/on7xelte/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/samsung/on7xelte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
     vendor/samsung/on7xelte/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
