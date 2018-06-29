@@ -104,7 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
     vendor/samsung/j7velte/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
-    vendor/samsung/j7velte/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/j7velte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
