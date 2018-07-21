@@ -75,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/j7velte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j7velte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
+    vendor/samsung/j7velte/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
     vendor/samsung/j7velte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7velte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/j7velte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
