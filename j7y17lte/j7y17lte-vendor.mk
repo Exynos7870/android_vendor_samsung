@@ -116,7 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/j7y17lte/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libtonyalsa.so:system/lib/libtonyalsa.so \
     vendor/samsung/j7y17lte/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/j7y17lte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/j7y17lte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
