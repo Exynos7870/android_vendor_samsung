@@ -98,14 +98,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/j7y17lte/proprietary/lib/librecordalive.so:system/lib/librecordalive.so \
     vendor/samsung/j7y17lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/samsung/j7y17lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsamsungDiamondVoiceExtV2.so:system/lib/libsamsungDiamondVoiceExtV2.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     vendor/samsung/j7y17lte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/j7y17lte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
@@ -120,6 +118,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/j7y17lte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/j7y17lte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
+    vendor/samsung/j7y17lte/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
+    vendor/samsung/j7y17lte/proprietary/vendor/etc/init/init.rilchip.rc:system/vendor/etc/init/init.rilchip.rc \
     vendor/samsung/j7y17lte/proprietary/vendor/firmware/bcm43455_V0147.0247.hcd:system/vendor/firmware/bcm43455_V0147.0247.hcd \
     vendor/samsung/j7y17lte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
     vendor/samsung/j7y17lte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
@@ -134,9 +134,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
     vendor/samsung/j7y17lte/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libPhotoEnhance.so:system/vendor/lib/libPhotoEnhance.so \
+    vendor/samsung/j7y17lte/proprietary/vendor/lib/libril.so:system/vendor/lib/libril.so \
+    vendor/samsung/j7y17lte/proprietary/vendor/lib/libsecril-client.so:system/vendor/lib/libsecril-client.so \
+    vendor/samsung/j7y17lte/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
+    vendor/samsung/j7y17lte/proprietary/vendor/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libsomp.so:system/vendor/lib/libsomp.so \
+    vendor/samsung/j7y17lte/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.0.so:system/vendor/lib/vendor.samsung.hardware.radio@1.0.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/j7y17lte/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
