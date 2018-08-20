@@ -76,6 +76,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/lib_SoundAlive_play_plus_ver127a.so:system/lib/lib_SoundAlive_play_plus_ver127a.so \
     vendor/samsung/j7y17lte/proprietary/lib/lib_SoundBooster_ver800.so:system/lib/lib_SoundBooster_ver800.so \
     vendor/samsung/j7y17lte/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
+    vendor/samsung/j7y17lte/proprietary/lib/android.hardware.radio@1.0.so:system/lib/android.hardware.radio@1.0.so \
+    vendor/samsung/j7y17lte/proprietary/lib/android.hidl.base@1.0.so:system/lib/android.hidl.base@1.0.so \
     vendor/samsung/j7y17lte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/j7y17lte/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/samsung/j7y17lte/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
@@ -91,6 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
     vendor/samsung/j7y17lte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/j7y17lte/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libfloatingfeature.so:system/vendor/lib/libfloatingfeature.so \
     vendor/samsung/j7y17lte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/j7y17lte/proprietary/lib/libmysound.so:system/lib/libmysound.so \
     vendor/samsung/j7y17lte/proprietary/lib/libpreprocessing_nxp.so:system/lib/libpreprocessing_nxp.so \
@@ -105,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     vendor/samsung/j7y17lte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsecnativefeature.so:system/vendor/lib/libsecnativefeature.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/j7y17lte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
