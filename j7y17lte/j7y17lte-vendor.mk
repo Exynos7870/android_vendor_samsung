@@ -99,6 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/librecordalive.so:system/lib/librecordalive.so \
     vendor/samsung/j7y17lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/j7y17lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/samsung/j7y17lte/proprietary/lib/librilutils.so:system/vendor/lib/librilutils.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsamsungDiamondVoiceExtV2.so:system/lib/libsamsungDiamondVoiceExtV2.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
@@ -136,6 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libPhotoEnhance.so:system/vendor/lib/libPhotoEnhance.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libril.so:system/vendor/lib/libril.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libsecril-client.so:system/vendor/lib/libsecril-client.so \
+    vendor/samsung/j7y17lte/proprietary/vendor/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
