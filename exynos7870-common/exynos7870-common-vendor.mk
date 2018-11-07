@@ -17,7 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos7870-common/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/exynos7870-common/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
-    vendor/samsung/exynos7870-common/proprietary/lib/hw/keystore.exynos7870.so:system/lib/hw/keystore.exynos7870.so \
+    vendor/samsung/exynos7870-common/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
     vendor/samsung/exynos7870-common/proprietary/lib/hw/memtrack.exynos5.so:system/lib/hw/memtrack.exynos5.so \
     vendor/samsung/exynos7870-common/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     vendor/samsung/exynos7870-common/proprietary/lib/libexynosdisplay.so:system/lib/libexynosdisplay.so \
