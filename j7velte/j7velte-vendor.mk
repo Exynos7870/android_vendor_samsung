@@ -81,8 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
     vendor/samsung/j7velte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
     vendor/samsung/j7velte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-    vendor/samsung/j7velte/proprietary/vendor/firmware/bcm43436B0_V0052.0061.hcd:system/vendor/firmware/bcm43436B0_V0052.0061.hcd \
-    vendor/samsung/j7velte/proprietary/vendor/firmware/bcm43438A1_V0056.0257.hcd:system/vendor/firmware/bcm43438A1_V0056.0257.hcd \
+    vendor/samsung/j7velte/proprietary/vendor/firmware/bcm43438_V0068.0285.hcd:system/vendor/firmware/bcm43438_V0068.0285.hcd \
     vendor/samsung/j7velte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
     vendor/samsung/j7velte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/j7velte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
