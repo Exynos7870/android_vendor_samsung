@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
     vendor/samsung/j7velte/proprietary/lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
     vendor/samsung/j7velte/proprietary/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
-    vendor/samsung/j7velte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/j7velte/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/samsung/j7velte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/j7velte/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
@@ -67,11 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
     vendor/samsung/j7velte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/j7velte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/samsung/j7velte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
-    vendor/samsung/j7velte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7velte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
-    vendor/samsung/j7velte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/j7velte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/j7velte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/j7velte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/j7velte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
@@ -103,3 +98,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+## Oreo RIL
+PRODUCT_COPY_FILES += \
+    vendor/samsung/on7xelte/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
+    vendor/samsung/on7xelte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
+    vendor/samsung/on7xelte/proprietary/lib/android.hardware.radio@1.1.so:system/lib/android.hardware.radio@1.1.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libreference-ril.so:system/vendor/lib/libreference-ril.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libril.so:system/vendor/lib/libril.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/librilutils.so:system/vendor/lib/librilutils.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libsecnativefeature.so:system/vendor/lib/libsecnativefeature.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libvndsecril-client.so:system/vendor/lib/libvndsecril-client.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so
