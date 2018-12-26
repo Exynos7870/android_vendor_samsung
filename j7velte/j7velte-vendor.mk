@@ -99,18 +99,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 ## Oreo RIL
 PRODUCT_COPY_FILES += \
-    vendor/samsung/on7xelte/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
-    vendor/samsung/on7xelte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
-    vendor/samsung/on7xelte/proprietary/lib/android.hardware.radio@1.1.so:system/lib/android.hardware.radio@1.1.so \
-    vendor/samsung/on7xelte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/on7xelte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/libreference-ril.so:system/vendor/lib/libreference-ril.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/libril.so:system/vendor/lib/libril.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/librilutils.so:system/vendor/lib/librilutils.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/libsecnativefeature.so:system/vendor/lib/libsecnativefeature.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/libvndsecril-client.so:system/vendor/lib/libvndsecril-client.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so
+    vendor/samsung/j7velte/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
+    vendor/samsung/j7velte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
+    vendor/samsung/j7velte/proprietary/lib/android.hardware.radio@1.1.so:system/lib/android.hardware.radio@1.1.so \
+    vendor/samsung/j7velte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/j7velte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/j7velte/proprietary/vendor/lib/libreference-ril.so:system/vendor/lib/libreference-ril.so \
+    vendor/samsung/j7velte/proprietary/vendor/lib/libril.so:system/vendor/lib/libril.so \
+    vendor/samsung/j7velte/proprietary/vendor/lib/librilutils.so:system/vendor/lib/librilutils.so \
+    vendor/samsung/j7velte/proprietary/vendor/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so \
+    vendor/samsung/j7velte/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
+    vendor/samsung/j7velte/proprietary/vendor/lib/libsecnativefeature.so:system/vendor/lib/libsecnativefeature.so \
+    vendor/samsung/j7velte/proprietary/vendor/lib/libvndsecril-client.so:system/vendor/lib/libvndsecril-client.so \
+    vendor/samsung/j7velte/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
+    vendor/samsung/j7velte/proprietary/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so \
+    vendor/samsung/j7velte/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so
