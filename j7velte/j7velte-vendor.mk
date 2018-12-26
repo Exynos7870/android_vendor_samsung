@@ -102,6 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7velte/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
     vendor/samsung/j7velte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/j7velte/proprietary/lib/android.hardware.radio@1.1.so:system/lib/android.hardware.radio@1.1.so \
+    vendor/samsung/j7velte/proprietary/lib/android.hardware.radio@1.0.so:system/lib/android.hardware.radio@1.0.so \
     vendor/samsung/j7velte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/j7velte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/j7velte/proprietary/vendor/lib/libreference-ril.so:system/vendor/lib/libreference-ril.so \
