@@ -133,6 +133,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/j7y17lte/proprietary/vendor/firmware/setfile_3m3.bin:system/vendor/firmware/setfile_3m3.bin \
     vendor/samsung/j7y17lte/proprietary/vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin \
+    vendor/samsung/j7y17lte/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/hw/fingerprint.default.so:system/vendor/lib/hw/fingerprint.default.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/hw/sensors.universal7870.so:system/vendor/lib/hw/sensors.universal7870.so \
