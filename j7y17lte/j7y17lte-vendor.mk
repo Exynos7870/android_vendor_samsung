@@ -30,6 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/camera.exynos7870.so:system/lib/hw/camera.exynos7870.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
+    vendor/samsung/j7y17lte/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
+    vendor/samsung/j7y17lte/proprietary/lib/hw/memtrack.exynos5.so:system/lib/hw/memtrack.exynos5.so \
     vendor/samsung/j7y17lte/proprietary/lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
     vendor/samsung/j7y17lte/proprietary/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
     vendor/samsung/j7y17lte/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
@@ -48,12 +50,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     vendor/samsung/j7y17lte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/j7y17lte/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libexynosdisplay.so:system/lib/libexynosdisplay.so \
     vendor/samsung/j7y17lte/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
     vendor/samsung/j7y17lte/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
     vendor/samsung/j7y17lte/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
     vendor/samsung/j7y17lte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libfimg.so:system/lib/libfimg.so \
     vendor/samsung/j7y17lte/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
     vendor/samsung/j7y17lte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libmpp.so:system/lib/libmpp.so \
     vendor/samsung/j7y17lte/proprietary/lib/libpreprocessing_nxp.so:system/lib/libpreprocessing_nxp.so \
     vendor/samsung/j7y17lte/proprietary/lib/librecordalive.so:system/lib/librecordalive.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsamsungDiamondVoice.so:system/lib/libsamsungDiamondVoice.so \
@@ -71,6 +79,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/samsung/j7y17lte/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/samsung/j7y17lte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
+    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
+    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
+    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/j7y17lte/proprietary/lib/soundfx/libaudiosa.so:system/lib/soundfx/libaudiosa.so \
     vendor/samsung/j7y17lte/proprietary/lib/soundfx/libaudiosaplus_sec.so:system/lib/soundfx/libaudiosaplus_sec.so \
     vendor/samsung/j7y17lte/proprietary/lib/soundfx/libmysound.so:system/lib/soundfx/libmysound.so \
