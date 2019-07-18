@@ -1,4 +1,6 @@
 
+
+21437vodafone ES"voda ES
 
 238063"3
 
@@ -124,18 +126,16 @@ BTB-Mobile"B-Mobile
 40440Airtel"Airtel
 
 40441AIRCEL"AIRCEL
-#
-40443Vodafone IN"Vodafone IN
+ 
+40443Vodafone IN"Vodafone
 
 40445Airtel"Airtel
+ 
+40446Vodafone IN"Vodafone
 
 40449Airtel"Airtel
-
-40450Reliance"RELIANCE
-
-40452Reliance"RELIANCE
-
-40467Reliance"RELIANCE
+ 
+40460Vodafone IN"Vodafone
 
 40468Dolphin"Dolphin
 
@@ -144,8 +144,14 @@ BTB-Mobile"B-Mobile
 40470Airtel"Airtel
 
 40483Reliance"Reliance
+ 
+40484Vodafone IN"Vodafone
 
 40485Reliance"RELIANCE
+ 
+40486Vodafone IN"Vodafone
+ 
+40488Vodafone IN"Vodafone
 
 40490Airtel"Airtel
 
@@ -250,8 +256,26 @@ $
 40555Airtel"Airtel
 
 40556Airtel"Airtel
+ 
+40566Vodafone IN"Vodafone
+ 
+40567Vodafone IN"Vodafone
 
 40585AIRCEL"AIRCEL
+!
+405750Vodafone IN"Vodafone
+!
+405751Vodafone IN"Vodafone
+!
+405752Vodafone IN"Vodafone
+!
+405753Vodafone IN"Vodafone
+!
+405754Vodafone IN"Vodafone
+!
+405755Vodafone IN"Vodafone
+!
+405756Vodafone IN"Vodafone
 
 405800AIRCEL"AIRCEL
 
@@ -516,6 +540,8 @@ Beeline KH"Beeline
 45701LAO GSM"LAOGSM
 
 45708Beeline Lao"Beeline
+
+46605GT 4G"GT 4G
 
 46703KP SUN"SUNNET
  
@@ -562,8 +588,6 @@ Beeline KH"Beeline
 51518
 red mobile"
 red mobile
-
-52004TRUE 3G+"TRUE 3G+
 
 52010TH WCS"TH WCS
  
